@@ -1,0 +1,22 @@
+HackDay I: 2011/12/09
+* Animated pagination 
+* Tablet swiping 
+* iPad video 
+* Coupon magnifier 
+
+HackDay II: 2012/05/31
+* Coupons Instant Search (won)
+* Social Coupons (won)
+* Coupon Waterfall
+
+HackDay III: 2013/03/28
+* Coupons.com Responsive Redesign (won #1)
+
+HackDay IV: 2013/10
+* Coupon Mix and Sharable Cart (won)
+* Smart Shopping List (won)
+
+HackDay V: 2014/06
+* RetailerIQ on Coupons.com (won)
+* Pinterest Style Coupons (won #1)
+
