@@ -20,3 +20,6 @@ HackDay V: 2014/06
 * RetailerIQ on Coupons.com (won)
 * Pinterest Style Coupons (won #1)
 
+HackDay VI: 2017/06
+* Coupons.com mobile app by ReactNative (popular vote #2)
+
