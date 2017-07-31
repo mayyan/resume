@@ -5,20 +5,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <style>
         body {font-size:14px;}
-        .row.top { background: #556864; color: #fff; text-align: center; position: relative;}
-        .job-title { padding:1% 0; border-top: 2px solid #fff; width: 50%; margin: auto;}
-        .profile-image { height: 100px; width: 100px; position: absolute; top: 0; left: 0; margin: 1.5%; border-radius: 50px;}
+        .top { text-align: center;}
+        h1 { margin-bottom: 5px; }
+        .job-title { color: #000; padding: 0 0 1% 0; width: 50%; margin: auto;}
+        .profile-image { height: 100px; width: 100px; margin-top: 25px; border-radius: 50px;}
         .row.bottom {display:table;}
-        .complementary { background: #ececec; display: table-cell; float: none;}
-        .main {display: table-cell; float: none;}
-        h2 { text-transform: uppercase; background: #556864; color: #fff; padding: 1% 2%; font-size: 1.4em;}
-        .main h2 { background-color: #ececec; color:#000; }
-        .position-title { font-size: 1.2em; text-transform: uppercase;}
+        .complementary { background: #ececec; display: table-cell; float: none; padding-bottom: 50px; }
+        .main { background: #78c6c8; display: table-cell; float: none; padding-bottom: 50px; }
+        h2 { text-transform: uppercase; background: #78c6c8; color: #fff; padding: 1% 2%; font-size: 1.4em;}
+        .main h2 { background-color: #ececec; color:#78c6c8; }
+        .position-title { font-size: 1.2em; text-transform: uppercase; color: #ececec;}
+        .position-location { font-style: italic; }
         .section { padding-left: 2%; padding-right: 2%;}
         .skill-name, .skill-bar, .skill-rating {display: inline-block;}
-        .skill-name   {width: 20%; font-size: 0.7em; line-height:2;}
-        .skill-bar    {width: 75%; height:14px; border: 1px solid #556864;}
-        .skill-percent { height:12px; background: #556864; text-align: right; font-size: 0.7em; color: #fff; padding-right: 2%;}
+        .skill-name   {width: 20%; font-size: 0.7em; line-height:2; overflow: hidden; text-overflow: ellipsis; }
+        .skill-bar    {width: 75%; height:14px; border: 1px solid #78c6c8;}
+        .skill-percent { height:12px; background: #78c6c8; text-align: right; font-size: 0.7em; color: #fff; padding-right: 2%;}
+        a, a span { color: #000 !important; text-decoration: underline; }
     </style>
     <style media="print">
         .row.top { background: #556864 !important; -webkit-print-color-adjust: exact; }
@@ -32,19 +35,17 @@
 
 <body>
     <div class="container">
-        <div class="row top">
-            <h1>May Yan</h1>
-            <p class="job-title">Seeking a senior engineering management position in a medium to large size company in the San Fransisco Bay Area</p>
-            <img src="./mayyan_profile.png" class="profile-image"/>
-        </div>
         <div class="row bottom">
             <div class="col-xs-3 col-lg-3 complementary">
+                <div style="text-align: center;">
+                    <img src="./mayyan_profile2.png" class="profile-image"/>
+                </div>
                 <div>
                     <h2>CONTACT</h2>
                     <div class="section">
                         <p>mayyan@yahoo.com</p>
                         <p>510-469-8817</p>
-                        <p>http://tinyurl.com/jot7h3k</p>
+                        <p>View online: <a href="http://tinyurl.com/jot7h3k">tinyurl.com/jot7h3k</a></p>
                     </div>
                 </div>
                 <div class="skill-section">
@@ -124,6 +125,10 @@
                 </div>
             </div> <!-- .complementary -->
             <div class="col-xs-9 col-lg-9 main">
+                <div class="top">
+                    <h1>MAY YAN</h1>
+                    <p class="job-title">Seeking a senior engineering management position in a medium to large size company in the San Fransisco Bay Area</p>
+                </div>
                 <div>
                     <h2>PROFESSIONAL PROFILE</h2>
                     <div class="section">
@@ -140,9 +145,9 @@
                     <h2>EXPERIENCE</h2>
                     <div class="section">
                         <h3 class="position-title">Sr. Engineering Manager</h3>
-                        <p>Quotient Technology Inc., Mountain View, CA / February 2014 - August 2017</p>
+                        <p class="position-location">Quotient Technology Inc., Mountain View, CA / February 2014 - August 2017</p>
                         <ul>
-                            <li>Responsible for the project planning, resource allocation, continuous integration and successful deliveries of <strong><a href="https://www.coupons.com">Coupons.com</a></strong>'s core web products - Printable Coupons, Partner Microsites, and Digital Paperless Coupons. Sites includes <strong>Dollar General, Winn Dixie, Ahold, Kraft, etc.</strong></li>
+                            <li>Responsible for the project planning, resource allocation, continuous integration and successful deliveries of <strong><a href="https://www.coupons.com">Coupons.com</a></strong>'s core web products - Printable Coupons, Partner Microsites, and Digital Paperless Coupons. Sites includes <strong><a href="https://dg.coupons.com">Dollar General</a>, <a href="https://coupons.winndixie.com">Winn Dixie</a>, <a href="https://coupons.giantfood.com">Ahold</a>, <a href="https://kraft.coupons.com">Kraft</a>, etc.</strong></li>
                             <li>Collaborate with product managers, designers and platform on all web initiatives. Review designs and identify gaps, define scopes and complexities.</li>
                             <li>Mentor and guide a team of 7-9 developers and QA to reach their highest potential through code reviews, cross training, and brown-bags.</li>
                             <li>Continuous innovation and enhancements on multiple technical stacks while ensure a high level of engineering quality by driving architectural decisions, coding standards and uniformed processes.</li>
@@ -152,9 +157,9 @@
                     </div>
                     <div class="section">
                         <h3 class="position-title">Principle Software Engineer</h3>
-                        <p>Quotient Technology Inc., Mountain View, CA / March 2011 - February 2014</p>
+                        <p class="position-location">Quotient Technology Inc., Mountain View, CA / March 2011 - February 2014</p>
                         <ul>
-                            <li>Re-architect <strong><a href="https://www.coupons.com">Coupons.com</a></strong> flagship website and partners' micro-sites from ground up, including <strong>Target, Walmart etc</strong>. (PHP, Zend, jQuery, modular design, CSS)</li>
+                            <li>Re-architect <strong><a href="https://www.coupons.com">Coupons.com</a></strong> flagship website and partners' micro-sites from ground up, including <strong><a href="http://coupons.target.com">Target</a>, <a href="https://www.walmart.com/store/3025/san-jose-ca/coupons">Walmart</a>, etc</strong>. (PHP, Zend, jQuery, modular design, CSS)</li>
                             <li>Led a front-end team and spearheaded the new tech stack of company's consumer web products. (Node.js, Backbone, LESS, Kraken.js, grunt)</li>
                             <li>Continuous improvement on performance, test coverage, unit test, continuous integration, accessibility, security and documentation.</li>
                             <li><strong>Winner of Quotient Hackday II, III, IV, V</strong></li>
@@ -162,9 +167,9 @@
                     </div>
                     <div class="section">
                         <h3 class="position-title">Sr. Web Front-end Engineer</h3>
-                        <p>Yahoo!, Sunnyvale, CA / March 2007 - February 2011</p>
+                        <p class="position-location">Yahoo!, Sunnyvale, CA / March 2007 - February 2011</p>
                         <ul>
-                            <li>Developed Animated Today on <strong>Yahoo! Homepage (yahoo.com)</strong>, a slide-show feature for the most important module on Yahoo!. Customizable to any region's need. Worked with product managers to achieve the best user experience world-wide.</li>
+                            <li>Developed Animated Today on <strong><a href="https://www.yahoo.com">Yahoo! Homepage (yahoo.com)</a></strong>, a slide-show feature for the most important module on Yahoo!. Customizable to any region's need. Worked with product managers to achieve the best user experience world-wide.</li>
                             <li>Added HTML5 video support for iPhone/iPad. Progressively enhanced visual components for modern browsers with CSS3.</li>
                             <li>Provided right-to-left supports for Arabic language using a single code base. Supports all popular browsers with different versions, including IE6.</li>
                             <li>Developed the first syndicated RSS feeds from Homepage for external consumption, including Yahoo!'s Today, News and Top Search Trend. External developers can build their own pages using these feeds.</li>
@@ -172,14 +177,14 @@
                             <li>Redesigned Messenger module on Homepage. Greatly improved its client performance, critical to the new Yahoo! Homepage initial GA.</li>
                             <li>Worked in a widely distributed team to create dozens of Yahoo! Sports components for all major European countries.</li>
                             <li>Created numerous bucket tests along with baseline to study user behavior before general release.</li>
-                            <li>Developed popular Top Picks module for <strong>My Yahoo! (my.yahoo.com)</strong>, used by millions of users.</li>
+                            <li>Developed popular Top Picks module for <strong><a href="https://my.yahoo.com/">My Yahoo! (my.yahoo.com)</a></strong>, used by millions of users.</li>
                             <li>Developed download flows for <strong>Yahoo! Toolbar</strong> distributions.</li>
                             <li>Prototyped many variations of the next-generation toolbar for usability study. Produced at least one variation a day during the 2-weeks study.</li>
                         </ul>
                     </div>
                     <div class="section">
                         <h3 class="position-title">Sr. Software Engineer</h3>
-                        <p>Arkivio, Mountain View, CA / 2005 - 2007</p>
+                        <p class="position-location">Arkivio, Mountain View, CA / 2005 - 2007</p>
                         <ul>
                             <li>Lead engineer for Management Console, the Web UI for Arkivio flagship storage management product Auto-Stor.
                             <li>Designed highly visible modules of Management Console. Focused on usability, scalability and performance.</li>
@@ -191,7 +196,7 @@
                     
                     <div class="section">
                         <h3 class="position-title">Sr. Software Engineer</h3>
-                        <p>Intuit, Mountain View, CA / 1998 -2001</p>
+                        <p class="position-location">Intuit, Mountain View, CA / 1998 -2001</p>
                         <ul>
                             <li>Technical lead of feature and UI design in <strong>Quicken.com</strong> Investment Transactional Portfolio, a web-based investment activity viewer, editor and report. Developed HTML components commonly used across the site in C++.</li>
                             <li>Initiated, designed and implemented Quicken.com Portfolio Editing wizard,  a consolidated web application to ease user experience in portfolio editing and customization. Lead of its usability design and test. Written in ASP/DCOM and C++. Wrote highly praised view customization controls in Javascript across browsers.</li>
@@ -202,7 +207,7 @@
                 
                     <div class="section">
                             <h3 class="position-title">Sr. Software Engineer, </h3>
-                            <p>Informix, Menlo Park, CA / 1995 - 1998</p>
+                            <p class="position-location">Informix, Menlo Park, CA / 1995 - 1998</p>
                             <ul>
                                 <li>Developed a group of UI tools on Windows for Informix Database Application IDE. Written in VC++/MFC/COM.</li>
                                 <li>Parallel development of NewEra, supporting major Unix platforms (Solaris, HP-UX, IBM, SCO etc.)</li>
