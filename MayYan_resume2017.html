@@ -7,28 +7,28 @@
         body {font-size:14px;}
         .top { text-align: center;}
         h1 { margin-bottom: 5px; }
-        .job-title { color: #000; padding: 0 0 1% 0; width: 50%; margin: auto;}
+        .job-title { color: #000; padding: 0 0 3.3% 0; width: 75%; margin: auto;}
         .profile-image { height: 100px; width: 100px; margin-top: 25px; border-radius: 50px;}
         .row.bottom {display:table;}
         .complementary { background: #ececec; display: table-cell; float: none; padding-bottom: 50px; }
-        .main { background: #78c6c8; display: table-cell; float: none; padding-bottom: 50px; }
-        h2 { text-transform: uppercase; background: #78c6c8; color: #fff; padding: 1% 2%; font-size: 1.4em;}
-        .main h2 { background-color: #ececec; color:#78c6c8; }
+        .main { background: #d9edf7; display: table-cell; float: none; padding-bottom: 50px; }
+        h2 { text-transform: uppercase; background: #31708f; color: #fff; padding: 1% 2%; font-size: 1.4em;}
+        .main h2 { background-color: #ececec; color:#31708f; }
         .position-title { font-size: 1.2em; text-transform: uppercase;}
         .position-location { font-style: italic; }
-        .section { padding-left: 2%; padding-right: 2%;}
+        .section-content { padding-left: 2%; padding-right: 2%;}
         .skill-name, .skill-bar, .skill-rating {display: inline-block;}
         .skill-name   {width: 20%; font-size: 0.7em; line-height:2; overflow: hidden; text-overflow: ellipsis; }
-        .skill-bar    {width: 75%; height:14px; border: 1px solid #78c6c8;}
-        .skill-percent { height:12px; background: #78c6c8; text-align: right; font-size: 0.7em; color: #fff; padding-right: 2%;}
+        .skill-bar    {width: 75%; height:14px; border: 1px solid #bce8f1;}
+        .skill-percent { height:12px; background: #bce8f1; text-align: right; font-size: 0.7em; color: #555; padding-right: 2%;}
         a, a span { color: #000 !important; text-decoration: underline; }
     </style>
     <style media="print">
-        
-        h2 { background: #78c6c8 !important; color: #fff !important; -webkit-print-color-adjust: exact; }
+        body {font-size:16px; line-height: 1.632;}
+        h2 { background: #31708f !important; color: #fff !important; -webkit-print-color-adjust: exact; }
         .complementary { background: #ececec !important; -webkit-print-color-adjust: exact; }
-        .main h2 { background-color: #78c6c8 !important; color:#000 !important; -webkit-print-color-adjust: exact; }
-        .skill-percent { background: #78c6c8 !important; color: #fff !important; -webkit-print-color-adjust: exact; }
+        .main h2 { background-color: #bce8f1 !important; color:#000 !important; -webkit-print-color-adjust: exact; }
+        .skill-percent { background: #bce8f1 !important; color: #555 !important; -webkit-print-color-adjust: exact; }
     </style>
 </head>
 
@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <h2>CONTACT</h2>
-                    <div class="section">
+                    <div class="section-content">
                         <p>mayyan@yahoo.com</p>
                         <p>510-469-8817</p>
                         <p><a href="https://github.com/mayyan">GiitHub</a></p>
@@ -110,28 +110,30 @@
                 </div>
                 <div>
                     <h2>EDUCATION</h2>
-                    <div class="section">
+                    <div class="section-content">
                         <h3 class="position-title">Master's Degree</h3>
                         <p>Computer Engineering<br/>
                         Santa Clara University<br/>
                         Santa Clara, CA
-                        <p>1993-1995</p>
+                        <p>1995</p>
                     </div>
-                </div>
-                <div>
-                    <h2>Misc</h2>
-                    <p>US Citizen</p>
-                    <p>References available upon request</p>
+                    <div class="section-content">
+                        <h3 class="position-title">Bachelor's Degree</h3>
+                        <p>Computer Science<br/>
+                        Fudan University<br/>
+                        Shanghai, China</p>
+                        <p>1993</p>
+                    </div>
                 </div>
             </div> <!-- .complementary -->
             <div class="col-xs-9 col-lg-9 main">
                 <div class="top">
                     <h1>MAY YAN</h1>
-                    <p class="job-title">Seeking a senior engineering management position in a medium to large size company in the San Fransisco Bay Area</p>
+                    <p class="job-title">Seeking a senior engineering leadership position in the San Fransisco Bay Area</p>
                 </div>
                 <div>
                     <h2>PROFESSIONAL PROFILE</h2>
-                    <div class="section">
+                    <div class="section-content">
                         <p>Skilled at team management, project and release planning, internal and external communication.</p>
                         <p>Motivate team to achieve commitments without losing fun and balance.</p>
                         <p>Instill sense of responsibility and accountability.</p>
@@ -144,7 +146,7 @@
                 </div>
                 <div>
                     <h2>EXPERIENCE</h2>
-                    <div class="section">
+                    <div class="section-content">
                         <h3 class="position-title">Sr. Engineering Manager</h3>
                         <p class="position-location">Quotient Technology Inc., Mountain View, CA / February 2014 - August 2017</p>
                         <ul>
@@ -157,7 +159,7 @@
                             <li>Won #2 Popular Vote on <strong>Quotient Hackday VI</strong> with Coupons.com Mobile app built in React Native.</li>
                         </ul>
                     </div>
-                    <div class="section">
+                    <div class="section-content">
                         <h3 class="position-title">Principle Software Engineer</h3>
                         <p class="position-location">Quotient Technology Inc., Mountain View, CA / March 2011 - February 2014</p>
                         <ul>
@@ -167,7 +169,7 @@
                             <li><strong>Winner of Quotient Hackday II, III, IV, V</strong></li>
                         </ul>
                     </div>
-                    <div class="section">
+                    <div class="section-content">
                         <h3 class="position-title">Sr. Web Front-end Engineer</h3>
                         <p class="position-location">Yahoo!, Sunnyvale, CA / March 2007 - February 2011</p>
                         <ul>
@@ -184,7 +186,7 @@
                             <li>Prototyped many variations of the next-generation toolbar for usability study. Produced at least one variation a day during the 2-weeks study.</li>
                         </ul>
                     </div>
-                    <div class="section">
+                    <div class="section-content">
                         <h3 class="position-title">Sr. Software Engineer</h3>
                         <p class="position-location">Arkivio, Mountain View, CA / 2005 - 2007</p>
                         <ul>
@@ -196,7 +198,7 @@
                         </ul>
                     </div>
                     
-                    <div class="section">
+                    <div class="section-content">
                         <h3 class="position-title">Sr. Software Engineer</h3>
                         <p class="position-location">Intuit, Mountain View, CA / 1998 -2001</p>
                         <ul>
@@ -207,7 +209,7 @@
                         </ul>
                     </div>
                 
-                    <div class="section">
+                    <div class="section-content">
                             <h3 class="position-title">Sr. Software Engineer, </h3>
                             <p class="position-location">Informix, Menlo Park, CA / 1995 - 1998</p>
                             <ul>
